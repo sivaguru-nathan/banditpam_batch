@@ -1,0 +1,8 @@
+matplotlib
+numpy==1.21.0
+pandas==1.4.3
+mnist==0.2.2
+scikit_learn
+scipy
+seaborn==0.10.1
+scikit_learn_extra

@@ -1,0 +1,5 @@
+* It has been observed that increase in number of workers leads to a higher utilization of cores. (i.e) for 8 workers all cores has been utilized
+* The runtime exhibits a decrease as the number of workers increases with the same dataset.
+* The UCB-estimated candidates significantly impact performance.
+* If the candidates converge to a minimum in the initial batches, multithreading performance will remain nearly unchanged.
+* The parallelizability of the cost function is the sole factor, as batches rely on the estimate from the preceding batch.
